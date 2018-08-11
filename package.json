@@ -1,0 +1,31 @@
+{
+  "name": "Idaho-State",
+  "version": "1.0.0",
+  "description": "desktop access to Idaho.gov",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Richard Tuttle",
+  "license": "MIT",
+  "build": {
+    "appId": "com.electron.idg2018",
+    "mac": {
+      "category": "public.app-category.lifestyle"
+    }
+  },
+  "devDependencies": {
+    "electron": "^2.0.0",
+    "electron-builder": "^20.22.0"
+  }
+}

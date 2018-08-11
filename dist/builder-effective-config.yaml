@@ -1,0 +1,7 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.electron.idg2018
+mac:
+  category: public.app-category.lifestyle
+electronVersion: 2.0.0
